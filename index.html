@@ -3,6 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<title>My first website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pangolin&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+	body	{
+		background-color: azure;
+	}
+		h1	{
+			color: rgb(53,122,200);
+			font-size: 80px;
+			text-align: right;
+			font-family: pangolin;
+			border: 5px blue dotted;
+		}
+
+		h2	{
+			color: rgb(237, 48, 36);
+			font-size: 30px;
+			text-align: center;
+		}
+
+		h3 	{
+			text-decoration: line-through;
+			font-size: 24px;
+			font-family: 'Lobster', cursive;
+		}
+
+		th {
+			background-color: rgb(108,173,78);
+			color: white;
+		}
+
+		td {
+			border: lightgrey 1px solid;
+		}
+	</style>
+
+
 </head>
 <body>
 <h1>Hello World</h1>
@@ -44,6 +86,55 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>This is the second item</li>
 	<li>This is the third item</li>
 </ol>
+<hr>
+<h2>Table</h2>
 
+<table>
+<style> 
+
+
+tr:nth-last-child(odd) {
+  background: cadetblue;
+}
+
+th {
+	background-color: seagreen;
+	color: aliceblue;
+}
+th, td {
+	border: lightgrey 1px solid;
+	padding: 8px;
+}
+table {
+	border-collapse: collapse;
+}
+
+</style>
+	<tr>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Phone Number</th>
+	</tr>
+	<tr>
+		<td>Ash Az yet</td>
+		<td>u@email.com</td>
+		<td>0123456789</td>
+	</tr>
+		<tr>
+		<td>Ash tres hermanas</td>
+		<td>3@email.com</td>
+		<td>0123456789</td>
+	</tr>
+		<tr>
+		<td>Ash group</td>
+		<td>then@email.com</td>
+		<td>0123456789</td>
+	</tr>
+		<tr>
+		<td>Ash we there yet?</td>
+		<td>theirs@email.com</td>
+		<td>0123456789</td>
+	</tr>
+</table>
 </body>
 </html>
